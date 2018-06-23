@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Soft Elegance';
+    src: url('/fonts/SOFT ELEGANCE.TTF');
+}
+@font-face {
+    font-family: 'Bebas Kai';
+    src: url('/fonts/BEBASKAI-REGULAR.OTF');
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url('/fonts/GEORGIA.TTF');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: #1d153e;
+    height: 60px; 
+    width: 100%;
+    position: relative;
+    text-align: right;
+    z-index: 20;
+} 
+.navi{
+  text-decoration: none;
+  color: white;
+  margin: 0 9px 0 5px;
+  font-family: 'Soft Elegance';
+  font-size: 20px;
+}
+nav{
+    padding-top: 15px;
+    padding-right: 25px;
+}
+.section {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f51a5b;
+     -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+nav a:hover{
+   border-bottom: 2px solid #f51a5b;
+}
+a:visited{
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+#logo{
+    width: 50px;
+    transform: translate(20px);
+    float: left;
+    padding-top: 10px;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    
+}
+#constellation{
+     width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.tilt{
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 20px;
+}
+#2{
+    background: white;
+    height: 1500px;
+    position: relative;
+}
+.works{
+   width: 100vw;
+   text-align: center;
+   margin-top: -2%;
+   box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
+   position: absolute;
+   background-color: #1d153e;
+   
+}
+.work{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    padding: 25px;
+    margin-bottom: 40px;
+	position:relative;
+	width: 30vw;
+	z-index: 3;
+}
+.work img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+     
+}
+.thumb-desc{
+     width: 100%;
+     text-align: center;
+     padding: 25px 0px 5px 0px;
+     background-color: white;
+     margin-top: -5px;
+     
+}
+.thumb-desc h3{
+    margin-top: -2px;
+    color: grey;
+
+}
+.thumb-desc a{
+     text-decoration: none;
+     font-family: 'Bebas Kai';
+     font-size: 30px;
+     color: #565656;
+     padding: 0;
+     
+}
+.thumb-desc a:hover{
+     text-decoration: none;
+    color: #f51a5b;
+     -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+
+}
+.work:hover{
+    -webkit-transform: translate(15px, -20px);
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+} 
+.works-style-container{
+   width: 100vw;
+   height:150vh;
+   text-align: center;
+   margin-top: -2%;
+   position: absolute;
+   z-index: 2;
+
+}
+.work-style{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    padding: 25px;
+    margin-bottom: 40px;
+	position:relative;
+	width: 30vw;
+}
+.work-style img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+     
+}
+#1{
+    position: relative;
+    text-align: center;
+}
+.hello {
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    font-family: 'Bebas Kai';
+    color: white;
+    font-size: 100px;
+    z-index: 5;
+    transform: translateZ(40px);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+.hello2 {
+    position: absolute;
+    top: 30.6%;
+    left: 43%;
+    font-family: 'Bebas Kai';
+    color: grey;
+    font-size: 100px;
+    transform: translateZ(40px);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+.intro {
+    position: absolute;
+    top: 43%;
+    left: 38%;
+    font-family: 'Georgia';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transform: translateZ(40px);
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, .5);
+}
+#bg2{
+    width: 100%;
+    height: 800%;
+    position: absolute;
+}
+#3{
+    position: absolute;
+    text-align: center; 
+}
+.about-button{
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 90%;
+}
+.about-button button{
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: white; 
+    border: 3px solid white;
+    font-family: 'Bebas Kai';
+}
+.about-button button:hover{
+    color: #7c3360;
+    background-color: white; 
+}
+#aboutme{
+    position: relative;
+    transform: translate(-51%, -50%);
+    font-family: 'Georgia';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top: 220%;
+}
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
+#4{
+    position: absolute;
+    text-align: center; 
+}
+.contactt{
+    position: relative;
+    left: 231%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 10px;
+    font-family: 'Bebas Kai';
+    color: white;
+    font-size: 40px;
+    top: 60%;
+}
+.email{
+    position: relative;
+    transform: translate(130%, 625%);
+    text-align: center;
+    margin-left: 10px;
+}
+.socialmedia{
+    position: relative;
+    left: 70%;
+    transform: translate(190%, 1090%);
+    text-align: center;
+    margin-left: 10px;
+    font-family: 'Bebas Kai';
+    color: white;
+    font-size: 25px;
+}
+.email h2{
+    font-family: 'Bebas Kai';
+    color: white;
+    font-size: 25px; 
+}
+.email p{
+    font-family: 'Georgia';
+    color: white;
+    font-size: 15px;  
+    position: relative;
+    top: -10px;
+}
+.icon{
+    position: absolute;
+    transform: translate(262%, 820%);
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+  
+}
+#yt{
+   width: 10%;
+   height: 10%;
+   padding: 1px;
+}
+#insta{
+     width: 10%;
+   height: 10%; 
+   padding: 1px;
+}
+#fb{
+     width: 10%;
+   height: 10%; 
+   padding: 1px;
+}
+.container2{
+    height: 1200px;
+    z-index: 200;
+}
+.container3{
+    height: 20vh;
+    position: relative;
+}
+.container4{
+    height: 85vh;
+    position: absolute;
+}
+.footer{
+  position: relative;
+  right: 0;
+  bottom: -300%;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  z-index: 20;
+  background: #1d153e;
+  top: 920px;
+  height: 30vh;
+    
+}
